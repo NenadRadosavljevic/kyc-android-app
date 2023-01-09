@@ -1,0 +1,16 @@
+<resources>
+
+<style name="MySpinnerDatePickerStyle" parent="android:Theme.Material.Dialog">
+    <item name="android:datePickerStyle">@style/MySpinnerDatePicker</item>
+</style>
+
+<style name="MySpinnerDatePicker" parent="android:Widget.Material.DatePicker">
+    <item name="android:datePickerMode">spinner</item>
+</style>
+    <style name="MyDialogErrorTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@android:color/holo_red_light</item>
+        <item name="android:textColor">@android:color/black</item>
+
+    </style>
+</resources>
+

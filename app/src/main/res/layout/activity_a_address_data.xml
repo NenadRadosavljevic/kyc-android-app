@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#add8e6"
+    tools:context=".aAddressData">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/checkIncludeDataFlag"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/my_border_orange"
+        android:weightSum="1">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="1.0">
+
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:layout_width="0dip">
+
+                <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:text="check to include data"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_height="fill_parent"
+                android:layout_weight=".15"
+                android:layout_width="0dip">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/infoCheckIncludeData"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/uncheckedicon"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight=".05"
+                android:layout_width="0dip"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="10px"
+        android:paddingTop="50px"
+        android:paddingBottom="5px"
+        android:text="Address 1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtAddress1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="0px"
+        android:layout_marginRight="20px"
+        android:background="@drawable/my_border_white"
+        android:imeOptions="actionNext"
+        android:paddingLeft="30px"
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        android:singleLine="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="10px"
+        android:paddingTop="10px"
+        android:paddingBottom="5px"
+        android:text="Address 2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAddress2"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="0px"
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        android:paddingLeft="30px"
+        android:text=""
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:background="@drawable/my_border_white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="10px"
+        android:paddingTop="10px"
+        android:paddingBottom="5px"
+        android:text="City"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCity"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="0px"
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        android:paddingLeft="30px"
+        android:text=""
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:background="@drawable/my_border_white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="10px"
+        android:paddingTop="10px"
+        android:paddingBottom="5px"
+        android:text="State/Province"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtStateProvince"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="0px"
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        android:paddingLeft="30px"
+        android:text=""
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:background="@drawable/my_border_white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="10px"
+        android:paddingTop="10px"
+        android:paddingBottom="5px"
+        android:text="Zip Code/Postal Code"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtZipPostalCode"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="0px"
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        android:paddingLeft="30px"
+        android:text=""
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:background="@drawable/my_border_white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70px"
+        android:paddingTop="5dp"
+        android:paddingBottom="0px"
+        android:text="Country"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black"
+        android:textAlignment="textStart"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCountry"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:hint="@string/select_a_country"
+        android:textAlignment="center"
+        android:background="@drawable/my_border_white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pnlMain"
+        android:layout_weight="2.73"
+        android:orientation="vertical"
+        android:layout_marginTop="0px"
+        android:weightSum="1">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_green_light"
+            android:weightSum="1.0">
+            <TextView
+                android:id="@+id/btnBack"
+
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:layout_width="0dip"
+                android:paddingTop="40px"
+                android:paddingBottom="40px"
+                android:text="@string/Button_Back"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/holo_red_light"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/btnNext"
+
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:layout_width="0dip"
+                android:paddingTop="40px"
+                android:paddingBottom="40px"
+                android:text="@string/Button_Next"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/holo_blue_dark"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

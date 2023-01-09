@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.parabellum.nftasset.aBLQSearchList"
+android:orientation="vertical"
+android:background="@android:color/white"
+    >
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2.73"
+    android:orientation="vertical"
+    android:layout_marginTop="20px"
+
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/lblNatpis"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0px"
+        android:paddingBottom="0px"
+        android:text="List"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0px"
+        android:paddingBottom="20px"
+        android:text="__________________________________________________________________________________________________________________"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="20px"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:layout_weight="1.20">
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/listView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="1.0">
+        <TextView
+            android:id="@+id/btnNazad"
+
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_width="0dip"
+            android:paddingTop="40px"
+            android:paddingBottom="40px"
+            android:text="Back"
+            android:textAlignment="center"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/btnPotvrdi"
+
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_width="0dip"
+            android:paddingTop="40px"
+            android:paddingBottom="40px"
+            android:text="Confirm"
+            android:textAlignment="center"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/holo_green_light"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+</LinearLayout>
